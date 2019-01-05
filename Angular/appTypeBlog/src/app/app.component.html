@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+     {{ title }}!
+  </h1>
+  <ul class="list-group">
+    <app-post  *ngFor="let p of posts" [content]="p.content"  [title]="p.title"></app-post>
+
+  </ul>
+
+  <app-heroes></app-heroes>
+<app-post-test></app-post-test>
+
+</div>
+
+
+
